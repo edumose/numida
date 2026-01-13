@@ -36,13 +36,13 @@ class Loan_Details:
         self.driver.find_element(*self.submitButton).click()
         application_summary = Application_Decision(self.driver)
 
-        # 🔑 Validation logic
+        # Validation logic
         if amount >= 1000000:
             expected_status = "⏳Your application is under review."
             assert "Your application is under review" in expected_status
 
-
         return application_summary
+
 
 
 
