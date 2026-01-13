@@ -1,0 +1,30 @@
+{
+  "data":[
+    {
+      "userPhone" : "0705831200",
+      "otpRequest": "0000",
+      "userNames" : "Edwin",
+      "userNational_id": "CF959382",
+      "userBirth_date" : "01/01/1999",
+      "userLoan_Amount" : "50000",
+      "userLoan_Term": "30 Days",
+      "userLoan_purpose": "Loan will be disbursed to customer shortly."
+
+
+
+    },
+
+    {
+      "userPhone" : "256719428800",
+      "otpRequest": "0000",
+      "userNames" : "Peter",
+      "userNational_id": "CF950382",
+      "userBirth_date" : "01/01/1999",
+      "userLoan_Amount" : "50000",
+      "userLoan_Term": "30 Days",
+      "userLoan_purpose": "Loan will be disbursed to customer shortly.",
+      "phone_number" : "256719508800"
+    }
+  ]
+
+}
