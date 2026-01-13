@@ -1,7 +1,7 @@
 {
   "data":[
     {
-      "userPhone" : "0705831200",
+      "userPhone" : "0702283310",
       "otpRequest": "0000",
       "userNames" : "Edwin",
       "userNational_id": "CF959382",
@@ -15,12 +15,12 @@
     },
 
     {
-      "userPhone" : "256719428800",
+      "userPhone" : "256773366820",
       "otpRequest": "0000",
       "userNames" : "Peter",
       "userNational_id": "CF950382",
       "userBirth_date" : "01/01/1999",
-      "userLoan_Amount" : "50000",
+      "userLoan_Amount" : "1000000",
       "userLoan_Term": "30 Days",
       "userLoan_purpose": "Loan will be disbursed to customer shortly.",
       "phone_number" : "256719508800"

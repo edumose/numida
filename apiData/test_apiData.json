@@ -1,13 +1,13 @@
 {
   "data":[
     {
-      "phone_number" : "2567",
+      "phone_number" : "25670395960",
       "otp": "0000",
       "full_name":"Edwin",
       "national_id":"CM2345",
       "email":"mose@gmail.com",
       "date_of_birth":"2026-04-04",
-      "loan_amount":"50000",
+      "loan_amount":"1000000",
       "loan_term":"30",
       "purpose":"Business expansion"
     }
