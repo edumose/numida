@@ -27,7 +27,7 @@ class VerifyOtp:
         is_valid = self.driver.execute_script("return arguments[0].checkValidity();", otp_input)
 
         if not is_valid:
-            print("Validation triggered: OTP field is empty or invalid.")
+            print("Validation triggered: OTP field is empty.")
 
             # Step 4: Enter OTP
             otp_input.send_keys(OTP)
