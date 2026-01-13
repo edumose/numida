@@ -31,8 +31,18 @@ class Loan_Details:
         # Entering more details for loan purpose
         self.driver.find_element(*self.purposeField).send_keys(purpose)
 
-    def submit_loan_application(self):
+    def submit_loan_application(self, amount: int):
+
         self.driver.find_element(*self.submitButton).click()
         application_summary = Application_Decision(self.driver)
+
+        # 🔑 Validation logic
+        if amount >= 1000000:
+            expected_status = "⏳Your application is under review."
+            assert "Your application is under review" in expected_status
+
+
         return application_summary
+
+
 

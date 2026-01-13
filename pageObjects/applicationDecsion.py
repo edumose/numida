@@ -8,12 +8,25 @@ class Application_Decision:
         self.containerMessage = (By.CSS_SELECTOR,
             "body > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(2) > div:nth-child(3)")
         self.logoutPage = (By.XPATH, "(//button[normalize-space()='Logout'])[1]")
+        self.pendingMessage = (By.XPATH, "(//p[@class='decision-message'])[1]")
+
+
+    def pending_loan_message(self):
+        pending_message = self.driver.find_element(*self.pendingMessage).text
+        assert "Your application is under review." in pending_message
+        return pending_message
 
 
     def get_congratulation_message(self):
         congratulatoryMessage = self.driver.find_element(*self.decisionMessage).text
         assert "Congratulations!" in congratulatoryMessage
         return congratulatoryMessage
+
+    def get_status(self):
+
+        #Returns the loan decision status text from the decision message element.
+        status_text = self.driver.find_element(*self.decisionMessage).text
+        return status_text
 
 
     def get_decision_summary_card_items(self):
