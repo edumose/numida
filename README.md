@@ -344,7 +344,7 @@ The automated QA suite for the Numida Loan Application API provided valuable ins
 
 ```json
 {
-  "message": "See you soon, chao!May the force be with you."
+  "message": "See you soon, chao!May the force be with you🚀🚀."
 }
 ```
 
