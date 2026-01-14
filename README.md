@@ -120,7 +120,7 @@ Overall Test Architecture
 
 ## Trade-offs Considered
 ## Speed vs Coverage
-• Prioritized critical flows (session, OTP, duplicate handling) over exhaustive scenarios due to time constraints.
+• Prioritized critical flows (session, OTP, duplicate handling) over exhaustive scenarios.
 
 ## Manual vs Automated
 • Automated regression for repeatable API checks and UI Happy path flow; manual exploratory testing for edge cases requiring judgment (e.g., session expiry, OTP flows).
