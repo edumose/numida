@@ -85,7 +85,6 @@ Total tests: 4
 Passed: 1
 Failed: 3
 
-Test Plan can be accessed via this link: 
 
 ## Architecture And Design Decisions
 Overall Test Architecture
